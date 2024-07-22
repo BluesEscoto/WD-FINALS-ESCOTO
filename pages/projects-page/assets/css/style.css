@@ -14,7 +14,7 @@ body {
 header{
     background: #3d4b55;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 50px;
     width: 100%;
 }
 
@@ -30,7 +30,7 @@ nav {
 }
 
 nav .logo {
-    width: 100px;
+    width: 80px;
 }
 
 nav ul {
