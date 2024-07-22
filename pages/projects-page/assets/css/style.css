@@ -39,21 +39,31 @@ nav ul {
     gap: 20px;
 }
 
-nav ul li {
-    margin: 0;
-}
-
 nav ul li a {
-    color: #fff;
     text-decoration: none;
-    padding: 10px;
-    transition: background 0.3s;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 
-nav ul li a:hover {
-    background: #413e3b;
-    color: #000;
-    border-radius: 5px;
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .projects-section {

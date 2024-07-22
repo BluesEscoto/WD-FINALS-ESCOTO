@@ -59,7 +59,7 @@ nav ul li a::after {
     height: 2px;
     bottom: -3px;
     left: 0;
-    background-color: #423b42;
+    background-color: #ffffff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -128,7 +128,7 @@ nav ul li a:hover::after {
 
 .experience-item:hover {
     transform: scale(1.05);
-    background-color: #ffffff;
+    background-color: #2b2828;
 }
 
 .experience-item:hover img {
